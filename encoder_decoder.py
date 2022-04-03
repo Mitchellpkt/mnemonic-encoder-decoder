@@ -3,12 +3,12 @@ from typing import List
 
 
 def words_to_indices(words: List[str], word_list: List[str]) -> List[int]:
-    wordlist.sort()
+    word_list.sort()
     return [wordlist.index(word) for word in words]
 
 
 def indices_to_words(indices: List[int], word_list: List[str]) -> List[str]:
-    wordlist.sort()
+    word_list.sort()
     return [wordlist[i] for i in indices]
 
 
