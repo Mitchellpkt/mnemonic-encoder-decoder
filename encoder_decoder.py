@@ -19,7 +19,7 @@ if __name__ == '__main__':
     with open('wordlist.txt', 'r') as f:
         wordlist: List[str] = f.read().split('\n')
     if not (actual := len(wordlist)) == (expected := 1626):
-        raise ValueError(f"ERROR: Expected wordlist length {expected} but got length {actual}. Wordlist:\n{wordlist}")
+        raise ValueError(f"ERROR: Expected wordlist length {expected} but got length {actual}.")
 
     # Example of indices_to_words:
     inds: List[int] = [2, 4, 6, 8, 1000]
