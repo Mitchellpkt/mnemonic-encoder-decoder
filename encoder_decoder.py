@@ -1,4 +1,5 @@
 # python 3.8+
+# (NEVER type any seed into a device that you do not know to be secure)
 from typing import List
 
 
@@ -22,8 +23,8 @@ if __name__ == '__main__':
 
     # Example of indices_to_words:
     inds: List[int] = [2, 4, 6, 8, 1000]
-    print(f"Indices: {inds}\ncorrespond to seed phrase: {indices_to_words(inds, wordlist)}\n\n")
+    print(f"--\nIndices: {inds}\nmap to seed phrase: {indices_to_words(inds, wordlist)}\n")
 
     # Example of words_to_indices
     seed_phrase: List[str] = ['zero', 'slower', 'recipe', 'oxygen', 'ozone']
-    print(f"Seed phrase: {seed_phrase}\ncorresponds to indices {words_to_indices(seed_phrase, wordlist)}")
+    print(f"--\nSeed phrase: {seed_phrase}\nmaps to indices: {words_to_indices(seed_phrase, wordlist)}")
