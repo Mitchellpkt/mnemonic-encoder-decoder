@@ -1,6 +1,7 @@
 # mnemonic-encoder-decoder
 
-Inspired by this reddit post: https://www.reddit.com/r/Monero/comments/ttvn6a/a_printable_mnemonic_monero_word_list_with_numbers/
+Inspired by this reddit
+post: https://www.reddit.com/r/Monero/comments/ttvn6a/a_printable_mnemonic_monero_word_list_with_numbers/
 
 Encoder / decoder: https://github.com/Mitchellpkt/mnemonic-encoder-decoder/blob/main/encoder_decoder.py
 
@@ -27,9 +28,9 @@ Example output:
 ```
 --
 Indices: [2, 4, 6, 8, 1000]
-map to seed phrase: ['ability', 'abnormal', 'abrasive', 'abyss', 'opened']
+map to seed phrase: ['abducts', 'ablaze', 'abort', 'absorb', 'opacity']
 
 --
 Seed phrase: ['zero', 'slower', 'recipe', 'oxygen', 'ozone']
-maps to indices: [1617, 1277, 1145, 1028, 1030]
+maps to indices: [1618, 1278, 1146, 1029, 1031]
 ```
