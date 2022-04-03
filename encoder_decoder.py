@@ -25,6 +25,6 @@ if __name__ == '__main__':
     inds: List[int] = [2, 4, 6, 8, 1000]
     print(f"--\nIndices: {inds}\nmap to seed phrase: {indices_to_words(inds, wordlist)}\n")
 
-    # Example of words_to_indices
+    # Example of words_to_indices:
     seed_phrase: List[str] = ['zero', 'slower', 'recipe', 'oxygen', 'ozone']
     print(f"--\nSeed phrase: {seed_phrase}\nmaps to indices: {words_to_indices(seed_phrase, wordlist)}")
