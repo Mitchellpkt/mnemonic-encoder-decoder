@@ -29,3 +29,6 @@ if __name__ == '__main__':
     # Example of words_to_indices
     seed_phrase: List[str] = ['zero', 'slower', 'recipe', 'oxygen', 'ozone']
     print(f"--\nSeed phrase: {seed_phrase}\nmaps to indices: {words_to_indices(seed_phrase, wordlist, lowest_index)}")
+
+    # Little test showing that you get the same result mapping from indices to words and back
+    assert words_to_indices(indices_to_words([1, 3, 4, 500, 1200], word_list=wordlist), word_list=wordlist)
