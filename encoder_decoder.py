@@ -14,7 +14,7 @@ def indices_to_words(indices: List[int], word_list: List[str], index_from: int =
 
 
 if __name__ == '__main__':
-    index_from: int = 1  # determine whether to count (0, 1, 2, ...) or (1, 2, 3, ...)
+    lowest_index: int = 1  # determine whether to count (0, 1, 2, ...) or (1, 2, 3, ...)
 
     # Load the wordlist
     with open('wordlist.txt', 'r') as f:
@@ -24,8 +24,8 @@ if __name__ == '__main__':
 
     # Example of indices_to_words:
     inds: List[int] = [2, 4, 6, 8, 1000]
-    print(f"--\nIndices: {inds}\nmap to seed phrase: {indices_to_words(inds, wordlist, index_from)}\n")
+    print(f"--\nIndices: {inds}\nmap to seed phrase: {indices_to_words(inds, wordlist, lowest_index)}\n")
 
     # Example of words_to_indices
     seed_phrase: List[str] = ['zero', 'slower', 'recipe', 'oxygen', 'ozone']
-    print(f"--\nSeed phrase: {seed_phrase}\nmaps to indices: {words_to_indices(seed_phrase, wordlist, index_from)}")
+    print(f"--\nSeed phrase: {seed_phrase}\nmaps to indices: {words_to_indices(seed_phrase, wordlist, lowest_index)}")
