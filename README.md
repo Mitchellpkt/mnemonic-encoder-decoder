@@ -1,3 +1,5 @@
+> (update: see also `prefix_collision_detector.py` for an unrelated project inspired by [this post](https://www.reddit.com/r/Monero/comments/zt9ube/seed_storage/))
+
 # mnemonic-encoder-decoder
 
 Inspired by this reddit
